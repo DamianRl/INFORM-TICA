@@ -3,4 +3,4 @@ Notas para informática
 ## 1.**Tablas**
 |A|B|
 |:-:|:-|
-|aa|bbb|
+|aa|bbbbb|
