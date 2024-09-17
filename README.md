@@ -1,6 +1,6 @@
 # Informatica
 Notas para informática
-##**Tablas**
+## **Tablas**
 |A|B|
 |:-:|:-|
 |aa|bbb|
