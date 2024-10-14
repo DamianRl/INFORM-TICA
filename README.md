@@ -16,10 +16,14 @@ def svr(dato, control=OK):
     return OK
 
 def cli():
+
     print("cli: begin")
+    
     svr(22)
+    
     print("cli: end")
 
 main ------------------------------
+
 cli()
 ## APUNTES
