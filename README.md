@@ -7,60 +7,59 @@ Notas para informática
 |:-:|:-|
 |aa|bbbbb|
 ## CLI-SVR
-OK= True
+    OK= True
 
-def svr(dato, control=OK):
+    def svr(dato, control=OK):
 
-    print(f"svr: recibido: {dato}")
+        print(f"svr: recibido: {dato}")
     
-    return OK
+        return OK
 
-def cli():
+    def cli():
 
-    print("cli: begin")
+        print("cli: begin")
     
-    svr(22)
+        svr(22)
     
-    print("cli: end")
+        print("cli: end")
 
-main ------------------------------
+    main ------------------------------
 
-cli()
+    cli()
 ## CLI-SVR V2
 
-INCREMENTA = 1
+    INCREMENTA = 1
 
-DUPLICA = 2
+    DUPLICA = 2
 
-def operacion(dato, op = INCREMENTA):
+    def operacion(dato, op = INCREMENTA):
 
-    print(f"svr: recibido: {dato} y {op}")
+        print(f"svr: recibido: {dato} y {op}")
     
-    if op == INCREMENTA:
+        if op == INCREMENTA:
     
-        return dato + 1
+            return dato + 1
         
-    if op == DUPLICA:
+        if op == DUPLICA:
     
-        return dato * 2
+            return dato * 2
     
-def cli():
+    def cli():
 
-    print("cli: begin")
+        print("cli: begin")
     
-    retorno = operacion(22, INCREMENTA)
+        retorno = operacion(22, INCREMENTA)
     
-    print(f" cli: recibido: {retorno}")
+        print(f" cli: recibido: {retorno}")
     
-    retorno = operacion(33, DUPLICA)
+        retorno = operacion(33, DUPLICA)
     
-    print(f" cli: recibido: {retorno}")
+        print(f" cli: recibido: {retorno}")
     
-    print("cli: end")
+        print("cli: end")
     
+    main ------------------------------
 
-main ------------------------------
-
-cli()
+    cli()
 
 ## APUNTES
