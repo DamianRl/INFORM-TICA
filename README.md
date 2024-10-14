@@ -61,31 +61,6 @@ def cli():
 
 main ------------------------------
 
-cli()INCREMENTA = 1
-
-DUPLICA = 2
-
-def operacion(dato, op = INCREMENTA):
-
-    print(f"svr: recibido: {dato} y {op}")
-    
-    if op == INCREMENTA:
-    
-        return dato + 1
-        
-    if op == DUPLICA:
-    
-        return dato * 2
-        
-
-def cli():
-    print("cli: begin")
-    retorno = operacion(22, INCREMENTA)
-    print(f" cli: recibido: {retorno}")
-    retorno = operacion(33, DUPLICA)
-    print(f" cli: recibido: {retorno}")
-    print("cli: end")
-
-# main ------------------------------
 cli()
+
 ## APUNTES
