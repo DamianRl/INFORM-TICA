@@ -10,7 +10,9 @@ Notas para informática
 OK= True
 
 def svr(dato, control=OK):
+
     print(f"svr: recibido: {dato}")
+    
     return OK
 
 def cli():
