@@ -63,3 +63,4 @@ Notas para informática
     cli()
 
 ## APUNTES
+Gestión de símbolos 
