@@ -76,7 +76,7 @@ Notas para informática
     universo.nombre = (“Restaurante”)
     universo.discurso.comienzo
         El Universo es un restaurante. De los clientes se conocen los datos habituales, también de los platillos, de los cocineros y de las ventas.
-        universo.discurso.fin
+    universo.discurso.fin
 
 
     -cliente
