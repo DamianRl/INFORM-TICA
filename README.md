@@ -64,3 +64,42 @@ Notas para informática
 
 ## APUNTES
    Gestión de símbolos 
+
+
+
+
+
+
+
+
+## ANÁLISIS DE DISCURSO
+    universo.nombre = (“Restaurante”)
+    universo.discurso.comienzo
+        El Universo es un restaurante. De los clientes se conocen los datos habituales, también de los platillos, de los cocineros y de las ventas.
+        universo.discurso.fin
+
+
+    -cliente
+    -platillo
+    -cocinero
+    -venta
+    -restaurante
+    -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+    v2
+    universo.discurso.comienzo
+	    restaurante de platillos
+	    -cliente: se conocen los datos habituales
+	    -platillo:se conocen los datos habituales
+	    -cocinero:.se conocen los datos habituales
+	    -venta: se conocen los datos habituales
+    universo.discurso.fin
+
+    -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+    v3(con diseño)
+	    -restaurante(de platillos)
+	    -cliente(DNI, nombre, apellido, teléfono, dirección,...)
+	    -Platillo(numPlatillo, ingredientesPrinc,precio, cantidadPorPersona,...)
+	    -cocinero(numCocinero, dni, nombre, ape, tf,...)
+	    -venta(platillo, cliente,cocinero, importe, fecha…)
+
+
